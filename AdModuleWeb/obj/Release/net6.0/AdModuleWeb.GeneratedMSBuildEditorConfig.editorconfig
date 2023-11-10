@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AdModuleWeb
 build_property.RootNamespace = AdModuleWeb
-build_property.ProjectDir = C:\Users\munashemahere\Source\Repos\ProjectVGroup2\AdModuleWeb\
+build_property.ProjectDir = C:\Users\zebby\Source\Repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\munashemahere\Source\Repos\ProjectVGroup2\AdModuleWeb
+build_property.MSBuildProjectDirectory = C:\Users\zebby\Source\Repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/CategoryController1/Index.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/CategoryController1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlDb250cm9sbGVyMVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/Home/Index.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/Home/Privacy.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/Shared/Error.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/_ViewImports.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/_ViewStart.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/munashemahere/Source/Repos/ProjectVGroup2/AdModuleWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/zebby/Source/Repos/IsaacZarnke/ProjectVGroup2/AdModuleWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3var3zxghh

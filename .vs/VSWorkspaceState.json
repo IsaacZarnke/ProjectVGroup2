@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AdModuleWeb",
+    "\\AdModuleWeb\\Data"
   ],
-  "SelectedNode": "\\C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2",
+  "SelectedNode": "\\AdModuleWeb\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
