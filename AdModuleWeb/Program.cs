@@ -49,15 +49,6 @@ app.MapGet("/api/product/{id}", (string id) =>
 
 app.Run();
 
-// this would be the path the code takes if the general user id is provided
-static string GeneralMarketingAlgorithm()
-{
-    Console.WriteLine("GeneralMarketingAlgorithm called");
-
-    // the image url would be a dynamic image src gathered from the algorithm (and database if required) returning the correct image for the ad spot
-    var imageUrl = "https://picsum.photos/200/300";
-    return imageUrl;
-}
 
 // this would be the path the code takes if the customer user id is provided
 static string CustomerMarketingAlgorithm()
