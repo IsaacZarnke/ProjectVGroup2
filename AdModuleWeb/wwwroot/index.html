@@ -1,9 +1,347 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
 </head>
-<body>
+<body class="body">
+    <div class="navbar">
+        <img style="float: left" src="Shopify_logo_PNG2.png" alt="" />
+        <span class="navbar-value">Cart</span>
+        <span class="navbar-value">Profile</span>
+        <span class="navbar-value">Home</span>
+        <span class="navbar-value">Analytics</span>
+        <span class="navbar-value">Products</span>
+    </div>
+    <div style="
+        margin-top: 40px;
+        margin-bottom: 58px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+      ">
+        <div class="container">
+            <span class="container-heading">
+                Total Clicks:<br />
+                100
+            </span>
+        </div>
+        <div class="container">
+            <span class="container-heading">
+                Total Conversions:<br />
+                100
+            </span>
+        </div>
+        <div class="container">
+            <span class="container-heading">Total Efficacy:<br />100%</span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-around">
+        <canvas id="lineChart"
+                style="max-width: 47.34%; max-height: 39.54%"></canvas>
+        <canvas id="barChart"
+                style="max-width: 47.4%; max-height: 39.54%"></canvas>
+    </div>
+
+    <div>
+        <p class="center" style="max-width: 650px; max-height: 250px">
+            C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\wwwroot\images\Shopify_logo_PNG2.png
+            <a href="https://picsum.photos/">
+                <img class="center"
+                     src="https://localhost:5163/api/product/1"
+                     style="width: auto; height: auto; border: 5px solid grey"
+                     alt="advertisement Image" />
+            </a>
+        </p>
+    </div>
+
+    <div style="margin-top: 5%; text-align: center; justify-content: center">
+        <button class="collapsible">Products</button>
+        <div class="content" style="margin-left: 20%">
+            <table style="width: 100%">
+                <tr>
+                    <th>Product</th>
+                    <th>Product Name</th>
+                    <th>Status</th>
+                    <th>Clicks</th>
+                    <th>Conversions</th>
+                    <th>Efficacy</th>
+                </tr>
+                <tr>
+                    <td>Emil</td>
+                    <td>Tobias</td>
+                    <td>Linus</td>
+                    <td>Emil</td>
+                    <td>Tobias</td>
+                    <td>Linus</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>14</td>
+                    <td>10</td>
+                    <td>16</td>
+                    <td>14</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">Copyright of class 2023 @ Conestoga College</div>
 </body>
 </html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+<script>
+    //Multi line chart creation script
+    const xValues = [
+        "January",
+        "Febuary",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
+
+    new Chart("lineChart", {
+        type: "line",
+        data: {
+            labels: xValues,
+            datasets: [
+                {
+                    label: "Conversions",
+                    data: [0, 100, 100, 300, 400, 1100, 2400, 3400, 4400, 5400],
+                    borderColor: "green",
+                    fill: false,
+                },
+                {
+                    label: "Clicks",
+                    data: [200, 600, 1900, 4900, 5900, 3900, 1900, 900, 10, 0],
+                    borderColor: "blue",
+                    fill: false,
+                },
+            ],
+        },
+        options: {
+            legend: { display: true },
+            title: {
+                display: true,
+                text: "Monthly Conversions & Clicks 2023",
+            },
+        },
+    });
+
+    //Bar chart creation script
+    var barXValues = [
+        "January",
+        "Febuary",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
+    var yValues = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10];
+    var barColors = ["red", "green", "blue", "orange", "brown"];
+
+    new Chart("barChart", {
+        type: "bar",
+        data: {
+            labels: barXValues,
+            datasets: [
+                {
+                    backgroundColor: barColors,
+                    data: yValues,
+                },
+            ],
+        },
+        options: {
+            scales: {
+                x: { stacked: true },
+                y: {
+                    stacked: true,
+                },
+            },
+            legend: { display: true },
+            title: {
+                display: true,
+                text: "Monthly Efficiency in Percentages 2023",
+            },
+        },
+    });
+</script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+
+<style>
+    .body {
+        background: #f6f7f3;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        background-image: linear-gradient(to right, #082839, #005052, #082839);
+        width: 100%;
+        min-height: 56px;
+        flex-shrink: 0;
+        text-align: center;
+        margin-top: 10%;
+        color: white;
+        line-height: 56px;
+        vertical-align: middle;
+    }
+
+    .navbar {
+        background-image: linear-gradient(to right, #082839, #005052, #082839);
+        width: 100%;
+        min-height: 56px;
+        flex-shrink: 0;
+        text-align: right;
+    }
+
+    .navbar-value {
+        flex-shrink: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        margin-right: 25px;
+    }
+
+    .container {
+        width: 10.56%;
+        height: 9.3%;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: linear-gradient(to bottom left, #005052, #0b3149);
+        box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+
+    .container-heading {
+        width: 180px;
+        flex-shrink: 0;
+        color: #00e4cc;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+    .container-value {
+        color: #00e4cc;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    .collapsible {
+        background: #00e4cc;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 59.95%;
+        border-radius: 20px 20px 0px 0px;
+        border: 1px solid #000;
+        text-align: center;
+        outline: none;
+        font-family: Inter;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 61px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+        .active,
+        .collapsible:hover {
+            background-color: #00e4cc;
+        }
+
+        .collapsible:after {
+            content: "\002B";
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+    .active:after {
+        content: "\2212";
+    }
+
+    .content {
+        padding: 0 18px;
+        max-height: 0;
+        width: 59.95%;
+        padding: 0px;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        border-radius: 0px 0px 20px 20px;
+        background-color: #f6f7f3;
+    }
+
+    table {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+
+    th {
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        text-align: center;
+        font-family: Inter;
+        font-size: 200%;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background-color: #0b3149;
+    }
+
+    td {
+        color: white;
+        text-align: center;
+        font-family: Inter;
+        font-size: 200%;
+        font-style: normal;
+        line-height: normal;
+        background-color: #005052;
+    }
+</style>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DEES8JlHd4ZKdp4PN5mysfNWzewy8zU4T/04ohIguO8=",
+  "Hash": "joeJBqufv8iRG60jfePxl2fJf5MGVvTcZp28IIdpQQM=",
   "Source": "AdModuleWeb",
   "BasePath": "_content/AdModuleWeb",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo_PNG2.png",
+      "SourceId": "AdModuleWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "BasePath": "_content/AdModuleWeb",
+      "RelativePath": "Shopify_logo_PNG2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Shopify_logo_PNG2.png"
     }
   ]
 }
