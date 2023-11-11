@@ -32,10 +32,10 @@ app.MapGet("/api/product/{id}", (string id) =>
     var imageUrl = CustomerMarketingAlgorithm();
 
     // Prepare the HTML response with an image (and id temporarily for testing purposes)
-    var htmlResponse = $"<html><body><h1>Customer ID: {id}</h1><img src=\"{imageUrl}\"></body></html>";
+    var htmlResponse = $"<a href=\"{imageUrl}\"></a>";
 
     // Return the HTML response
-    return Results.Text("https://picsum.photos/650/250", "text/html");
+    return Results.Redirect(imageUrl);
 });
 
 app.Run();
@@ -46,6 +46,6 @@ static string CustomerMarketingAlgorithm()
     Console.WriteLine("CustomerMarketingAlgorithm called");
 
     // the image url would be a dynamic image src gathered from the algorithm (and database if required) returning the correct image for the ad spot
-    var imageUrl = "https://picsum.photos/650/250";
+    var imageUrl = "https://picsum.photos/650/250.jpg";
     return imageUrl;
 }

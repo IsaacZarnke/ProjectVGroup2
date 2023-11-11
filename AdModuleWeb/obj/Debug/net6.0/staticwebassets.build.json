@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "joeJBqufv8iRG60jfePxl2fJf5MGVvTcZp28IIdpQQM=",
+  "Hash": "s1RZtyz5aql1EB5ipcShNe8c3i2bHi9suheDA7NGZYE=",
   "Source": "AdModuleWeb",
   "BasePath": "_content/AdModuleWeb",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo_PNG2.png",
+      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
       "SourceId": "AdModuleWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
-      "RelativePath": "Shopify_logo_PNG2.png",
+      "RelativePath": "Shopify_logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Shopify_logo_PNG2.png"
+      "OriginalItemSpec": "wwwroot\\Shopify_logo.png"
     }
   ]
 }
