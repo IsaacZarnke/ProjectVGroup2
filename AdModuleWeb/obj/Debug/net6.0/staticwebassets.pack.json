@@ -1,19 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpeg",
+      "PackagePath": "staticwebassets\\Shopify_logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpg",
+      "PackagePath": "staticwebassets\\Shopify_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
       "PackagePath": "staticwebassets\\Shopify_logo.png"
     },
     {
-      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\index.html",
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
