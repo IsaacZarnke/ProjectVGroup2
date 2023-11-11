@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdModuleWeb", "AdModuleWeb\AdModuleWeb.csproj", "{AE36498A-F3C1-4D85-917F-D24D3F426EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdModuleWeb", "AdModuleWeb\AdModuleWeb.csproj", "{AE36498A-F3C1-4D85-917F-D24D3F426EB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{51E73930-0DFD-4B16-8F55-FFCEE838DF90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AE36498A-F3C1-4D85-917F-D24D3F426EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE36498A-F3C1-4D85-917F-D24D3F426EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE36498A-F3C1-4D85-917F-D24D3F426EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E73930-0DFD-4B16-8F55-FFCEE838DF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E73930-0DFD-4B16-8F55-FFCEE838DF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E73930-0DFD-4B16-8F55-FFCEE838DF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E73930-0DFD-4B16-8F55-FFCEE838DF90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
