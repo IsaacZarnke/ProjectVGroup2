@@ -29,26 +29,16 @@ app.MapGet("/", (IWebHostEnvironment env) =>
 
 app.MapGet("/api/product/{id}", (string id) =>
 {
-    var imageUrl = "";
-    // Test general id that dictates the state of the marketing module
-    if (id != "000000")
-    {
-        imageUrl = CustomerMarketingAlgorithm();
-    }
-    else
-    {
-        imageUrl = GeneralMarketingAlgorithm();
-    }
+    var imageUrl = CustomerMarketingAlgorithm();
 
     // Prepare the HTML response with an image (and id temporarily for testing purposes)
     var htmlResponse = $"<html><body><h1>Customer ID: {id}</h1><img src=\"{imageUrl}\"></body></html>";
 
     // Return the HTML response
-    return Results.Text(htmlResponse, "text/html");
+    return Results.Text("https://picsum.photos/650/250", "text/html");
 });
 
 app.Run();
-
 
 // this would be the path the code takes if the customer user id is provided
 static string CustomerMarketingAlgorithm()
@@ -56,6 +46,6 @@ static string CustomerMarketingAlgorithm()
     Console.WriteLine("CustomerMarketingAlgorithm called");
 
     // the image url would be a dynamic image src gathered from the algorithm (and database if required) returning the correct image for the ad spot
-    var imageUrl = "https://picsum.photos/200/300";
+    var imageUrl = "https://picsum.photos/650/250";
     return imageUrl;
 }

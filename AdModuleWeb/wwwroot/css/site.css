@@ -1,18 +1,32 @@
-html {
-  font-size: 14px;
+navbar {
+    background-image: linear-gradient(to right, #082839, #005052, #082839);
+    width: 1920px;
+    height: 56px;
+    flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+navbar-value {
+    width: 100px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+container {
+    width: 195px;
+    height: 100.42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom left, #005052, #0b3149);
+    box-shadow: -10px 10px 10px #09283b;
 }
 
-body {
-  margin-bottom: 60px;
+container-value {
+    color: #00e4cc;
 }
