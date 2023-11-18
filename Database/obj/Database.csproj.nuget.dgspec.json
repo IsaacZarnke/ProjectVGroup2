@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IZarn\\source\\repos\\ProjectVGroup2Main\\Database\\Database.csproj": {}
+    "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\Database\\Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IZarn\\source\\repos\\ProjectVGroup2Main\\Database\\Database.csproj": {
+    "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IZarn\\source\\repos\\ProjectVGroup2Main\\Database\\Database.csproj",
+        "projectUniqueName": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Users\\IZarn\\source\\repos\\ProjectVGroup2Main\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\IZarn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IZarn\\source\\repos\\ProjectVGroup2Main\\Database\\obj\\",
+        "projectPath": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\zebby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\IZarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zebby\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\zebby\\OneDrive\\Documents\\Nuget Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/packages": {}
         },
         "frameworks": {
           "net6.0": {
@@ -85,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

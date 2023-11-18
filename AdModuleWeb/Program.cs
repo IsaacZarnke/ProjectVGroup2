@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using System.IO;
+using System.Text.Json;
+using Microsoft.AspNetCore.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +40,30 @@ app.MapGet("/api/product/{id}", (string id) =>
     // Return the HTML response
     return Results.Redirect(imageUrl);
 });
+
+app.MapPost("/api/parsejson", async (HttpContext context) =>
+{
+    using (StreamReader reader = new StreamReader(context.Request.Body))
+    {
+        var json = await reader.ReadToEndAsync();
+
+        var result = parseJSON(json);
+
+        if (result == 1)
+        {
+            return Results.Ok();
+        }
+        else
+        {
+            return Results.BadRequest("Unrecognized JSON structure");
+        }
+    }
+});
+
+int parseJSON(string json)
+{
+    return 1;
+}
 
 app.Run();
 

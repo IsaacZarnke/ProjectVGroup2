@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpeg",
+      "PackagePath": "staticwebassets\\Shopify_logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpg",
+      "PackagePath": "staticwebassets\\Shopify_logo.jpg"
+    },
+    {
       "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
       "PackagePath": "staticwebassets\\Shopify_logo.png"
     },
