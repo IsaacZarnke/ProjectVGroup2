@@ -1,17 +1,6 @@
 {
   "Files": [
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpeg",
-      "PackagePath": "staticwebassets\\Shopify_logo.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpg",
-      "PackagePath": "staticwebassets\\Shopify_logo.jpg"
-    },
-    {
-      "Id": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
-=======
       "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpeg",
       "PackagePath": "staticwebassets\\Shopify_logo.jpeg"
     },
@@ -21,7 +10,6 @@
     },
     {
       "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
->>>>>>> a2155899869d0e5bbca942885c8b0f2429ab1d5c
       "PackagePath": "staticwebassets\\Shopify_logo.png"
     },
     {

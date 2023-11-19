@@ -1,11 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj": {}
-=======
     "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj": {}
->>>>>>> a2155899869d0e5bbca942885c8b0f2429ab1d5c
   },
   "projects": {
     "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj": {
@@ -13,23 +9,12 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj",
         "projectName": "AdModuleWeb",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj",
-        "packagesPath": "C:\\Users\\zebby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\obj\\",
-=======
         "projectPath": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj",
         "packagesPath": "C:\\Users\\munashemahere\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\obj\\",
->>>>>>> a2155899869d0e5bbca942885c8b0f2429ab1d5c
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\zebby\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\munashemahere\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> a2155899869d0e5bbca942885c8b0f2429ab1d5c
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,11 +82,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
->>>>>>> a2155899869d0e5bbca942885c8b0f2429ab1d5c
         }
       }
     }

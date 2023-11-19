@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1tI4H8AdN0+taK7NkDQXYLAhs0MTDUGAs3f+tImnacs=",
+  "Hash": "F2n7d/Ux88YA0m5RT89TN1mGc+9EbZiCidR5OP5pLuA=",
   "Source": "AdModuleWeb",
   "BasePath": "_content/AdModuleWeb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AdModuleWeb\\wwwroot",
       "Source": "AdModuleWeb",
-      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\css\\site.css",
       "SourceId": "AdModuleWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\index.html",
       "SourceId": "AdModuleWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\js\\site.js",
       "SourceId": "AdModuleWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpeg",
+      "Identity": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpeg",
       "SourceId": "AdModuleWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
       "RelativePath": "Shopify_logo.jpeg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Shopify_logo.jpeg"
     },
     {
-      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpg",
+      "Identity": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpg",
       "SourceId": "AdModuleWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
       "RelativePath": "Shopify_logo.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Shopify_logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
+      "Identity": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
       "SourceId": "AdModuleWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\zebby\\source\\repos\\IsaacZarnke\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\",
       "BasePath": "_content/AdModuleWeb",
       "RelativePath": "Shopify_logo.png",
       "AssetKind": "All",
