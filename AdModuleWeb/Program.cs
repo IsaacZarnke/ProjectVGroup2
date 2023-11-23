@@ -47,23 +47,46 @@ app.MapPost("/api/parsejson", async (HttpContext context) =>
     {
         var json = await reader.ReadToEndAsync();
 
-        var result = parseJSON(json);
+        // Parse the JSON to JsonDocument
+        //using (JsonDocument doc = JsonDocument.Parse(json))
+        //{
+        //    // Detect the root element type
+        //    JsonElement root = doc.RootElement;
 
-        if (result == 1)
-        {
-            return Results.Ok();
-        }
-        else
-        {
-            return Results.BadRequest("Unrecognized JSON structure");
-        }
+        //    // Dynamically determine the model based on the root element's properties
+        //    if (root.TryGetProperty("Id", out _))
+        //    {
+        //        // Deserialize to Product model
+        //        var product = JsonSerializer.Deserialize<Product>(json, new JsonSerializerOptions
+        //        {
+        //            PropertyNameCaseInsensitive = true
+        //        });
+
+        //        // Process the product data as needed
+
+        //        return Results.Text($"Received product: {product.Name}");
+        //    }
+        //    else if (root.TryGetProperty("SomeOtherProperty", out _))
+        //    {
+        //        // Deserialize to another model
+        //        var otherModel = JsonSerializer.Deserialize<OtherModel>(json, new JsonSerializerOptions
+        //        {
+        //            PropertyNameCaseInsensitive = true
+        //        });
+
+        //        // Process the other model data as needed
+
+        //        return Results.Text($"Received data: {otherModel.SomeOtherProperty}");
+        //    }
+        //    // Add more model checks as needed
+        //    else
+        //    {
+        //        // Handle unrecognized JSON structure
+        //        return Results.BadRequest("Unrecognized JSON structure");
+        //    }
+        //}
     }
 });
-
-int parseJSON(string json)
-{
-    return 1;
-}
 
 app.Run();
 

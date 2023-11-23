@@ -3,3 +3,8 @@ C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Dat
 C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
 C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
 C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache

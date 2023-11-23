@@ -28,5 +28,10 @@
     <None Include="wwwroot\index.html" />
     <None Include="wwwroot\Shopify_logo.png" />
   </ItemGroup>
+	
+
+  <ItemGroup>
+    <ProjectReference Include="..\Database\Database.csproj" />
+  </ItemGroup>
 
 </Project>
