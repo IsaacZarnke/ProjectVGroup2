@@ -10,12 +10,6 @@ using System;
 
 public static class DatabaseLib
 {
-    public static void Shell()
-    {
-        using var context = DataContext.Instance;
-        context.SaveChanges();
-    }
-
 // function that takes an array and fills it with each row in monthly stats
 // [0, 1, 2, 3, 4, 5]
 // [month1clicks, month2conversions, month2clicks, month2conversions, month3clicks, month3conversions]

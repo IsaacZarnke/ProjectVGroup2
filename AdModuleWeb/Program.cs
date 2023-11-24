@@ -8,6 +8,9 @@ using System.Net;
 using Microsoft.AspNetCore.Hosting;
 using ikvm.runtime;
 
+using static DatabaseLib;
+using Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 //this is how you tell the entire App that you will be using the data folder, entity framework, along w connection string to manage backend database
@@ -37,7 +40,6 @@ app.MapGet("/", (IWebHostEnvironment env) =>
 
 app.MapGet("/api/product/{id}", (string id) =>
 {
-
     var imageUrl = CustomerMarketingAlgorithm();
 
     // Prepare the HTML response with an image (and id temporarily for testing purposes)
