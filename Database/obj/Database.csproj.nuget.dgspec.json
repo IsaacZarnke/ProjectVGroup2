@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\Database\\Database.csproj": {}
+    "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\Database\\Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\Database\\Database.csproj": {
+    "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\Database\\Database.csproj",
+        "projectUniqueName": "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\munashemahere\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\Database\\obj\\",
+        "projectPath": "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\ericw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\munashemahere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ericw\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

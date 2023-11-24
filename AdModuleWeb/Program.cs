@@ -2,6 +2,11 @@ using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System.Text.Json;
 using Microsoft.AspNetCore.Http;
+using System.Drawing.Imaging;
+using System.Drawing;
+using System.Net;
+using Microsoft.AspNetCore.Hosting;
+using ikvm.runtime;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +37,7 @@ app.MapGet("/", (IWebHostEnvironment env) =>
 
 app.MapGet("/api/product/{id}", (string id) =>
 {
+
     var imageUrl = CustomerMarketingAlgorithm();
 
     // Prepare the HTML response with an image (and id temporarily for testing purposes)
@@ -75,4 +81,23 @@ static string CustomerMarketingAlgorithm()
     // the image url would be a dynamic image src gathered from the algorithm (and database if required) returning the correct image for the ad spot
     var imageUrl = "https://picsum.photos/650/250.jpg";
     return imageUrl;
+}
+
+static void AdCreativeTransformer(string url) //takes in a product image url, overlays ad creative, saves final ad as ad output.png within AdCreatives folder
+{
+    Image imageAdTemplate = Image.FromFile("/AdCreatives/overlay.png");
+    using (WebClient client = new WebClient())
+    {
+        client.DownloadFile(url, "AdCreatives/product.png");
+    }
+    Image imageProduct = Image.FromFile("AdCreatives/product.png");
+
+    Image img = new Bitmap(imageAdTemplate.Width, imageAdTemplate.Height);
+    using (Graphics gr = Graphics.FromImage(img))
+    {
+        gr.DrawImage(imageAdTemplate, new Point(0, 0));
+        gr.DrawImage(imageProduct, new Point(0, 0));
+    }
+    img.Save("AdCreatives/ad output.png", ImageFormat.Png);
+
 }
