@@ -536,3 +536,6 @@ C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\obj\Debug\net
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\obj\Debug\net6.0\AdModuleWeb.AssemblyInfo.cs
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\obj\Debug\net6.0\AdModuleWeb.csproj.CoreCompileInputs.cache
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\obj\Debug\net6.0\AdModuleWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\obj\Debug\net6.0\AdModuleWeb.dll
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\obj\Debug\net6.0\refint\AdModuleWeb.dll
+C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\obj\Debug\net6.0\AdModuleWeb.pdb

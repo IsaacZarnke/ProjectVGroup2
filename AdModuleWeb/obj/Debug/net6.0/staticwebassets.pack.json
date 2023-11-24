@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpeg",
+      "PackagePath": "staticwebassets\\Shopify_logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.jpg",
+      "PackagePath": "staticwebassets\\Shopify_logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\Shopify_logo.png",
+      "PackagePath": "staticwebassets\\Shopify_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\munashemahere\\Source\\Repos\\ProjectVGroup2\\AdModuleWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AdModuleWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AdModuleWeb.props",
+      "PackagePath": "build\\AdModuleWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AdModuleWeb.props",
+      "PackagePath": "buildMultiTargeting\\AdModuleWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AdModuleWeb.props",
+      "PackagePath": "buildTransitive\\AdModuleWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -2,9 +2,11 @@
 <html>
 <head>
     <title>Seller Marketing Page</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 </head>
 <body class="body">
-    <div class="navbar">
+    <div class="navbar" style="display:flex;">
+        <img src="logo.png" alt="Page logo" class="left" style="width: 5%; height:5%;" />
         <span class="navbar-value">Cart</span>
         <span class="navbar-value">Profile</span>
         <span class="navbar-value">Home</span>
@@ -45,7 +47,7 @@
         <p class="center" style="max-width: 650px; max-height: 250px">
             <a href="https://picsum.photos/">
                 <img class="center"
-                     src="http://localhost:5163/api/product/1"
+                     src="https://localhost:7015/api/ad/100/2001"
                      style="width: auto; height: auto; border: 5px solid grey"
                      alt="advertisement Image" />
             </a>
@@ -58,8 +60,7 @@
             <table style="width: 100%">
                 <tr>
                     <th>Product</th>
-                    <th>Product Name</th>
-                    <th>Status</th>
+                    <th>Name</th>
                     <th>Clicks</th>
                     <th>Conversions</th>
                     <th>Efficacy</th>
@@ -70,7 +71,6 @@
                     <td>Linus</td>
                     <td>Emil</td>
                     <td>Tobias</td>
-                    <td>Linus</td>
                 </tr>
                 <tr>
                     <td>16</td>
@@ -78,7 +78,6 @@
                     <td>10</td>
                     <td>16</td>
                     <td>14</td>
-                    <td>10</td>
                 </tr>
             </table>
         </div>
@@ -90,6 +89,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
+<script>
+</script>
 <script>
     var logo = "Shopify_logo.png";
 </script>
@@ -224,6 +225,7 @@
         background-image: linear-gradient(to right, #082839, #005052, #082839);
         width: 100%;
         min-height: 56px;
+        max-height: 56px;
         flex-shrink: 0;
         text-align: right;
     }
@@ -231,12 +233,12 @@
     .navbar-value {
         flex-shrink: 0;
         color: #fff;
-        text-align: center;
-        font-size: 35px;
+        font-size: 2.2vw;
         font-style: normal;
         font-weight: 700;
-        line-height: 150%;
+        line-height: 3rem;
         margin-right: 25px;
+        margin-top: 5px;
     }
 
     .container {
@@ -254,7 +256,7 @@
         flex-shrink: 0;
         color: #00e4cc;
         text-align: center;
-        font-size: 30px;
+        font-size: 1.5vw;
         font-style: normal;
         font-weight: 700;
         line-height: 150%;
@@ -269,6 +271,12 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 5%;
+    }
+
+    .left {
+        display: block;
+        margin-right: auto;
+        margin-bottom: 5px;
     }
 
     .collapsible {

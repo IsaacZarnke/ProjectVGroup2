@@ -2,43 +2,64 @@ using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System.Text.Json;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Diagnostics;
+using Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//this is how you tell the entire App that you will be using the data folder, entity framework, along w connection string to manage backend database
-//1. create connection string in app settings.json
-//2. Create a folder for Data where all the tables will be created based off models (code first DB mmgmt)
-//3. create a "Name"DbContext class and make it a child of DbContext class (base class)
-//4. install entity framework to access DbContext class
-//5. create constructor that takes a (vector?) datatype of DbContextOptions<NameDbContext> and name it options - use :base(options) syntax to pass into base class
-//6. Instal EntityFramework Sql Server as you transition into the app(program.cs) to connect it all
-//7. include code below to connect everything together and so app is aware how database is to be set up
-//8.
-//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-//    builder.Configuration.GetConnectionString("DefaultConnection")
-// ));
-//between builder and calling Build is where you add in any dependency injections
+builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+
+app.UseStaticFiles();
 
 app.MapGet("/", (IWebHostEnvironment env) =>
 {
     // Path to your HTML file
     var filePath = Path.Combine(env.ContentRootPath, "wwwroot", "index.html");
 
+    // Read the content of the HTML file
+    var htmlContent = File.ReadAllText(filePath);
+
+    // var CoversionClickDataset = getStatsFunction;
+
+    // Generate JavaScript code with the initialized variable
+    // var javascriptCode = $"<script>var CoversionClickDataset = '{CoversionClickDataset}';</script>";
+
+    // Insert the JavaScript code into the HTML content
+    //htmlContent = htmlContent.Replace("</head>", $"{javascriptCode}</head>");
+
     // Return the HTML file
+    // return Results.Content(htmlContent, "text/html")l
+
     return Results.File(filePath, "text/html");
 });
 
-app.MapGet("/api/product/{id}", (string id) =>
+app.MapGet("/api/ad/{width}/{height}", (int width, int height) =>
 {
     var imageUrl = CustomerMarketingAlgorithm();
 
     // Prepare the HTML response with an image (and id temporarily for testing purposes)
-    var htmlResponse = $"<a href=\"{imageUrl}\"></a>";
+    var htmlResponse = $"<a href=\"{imageUrl}\"><img src=\"{imageUrl}\" alt=\"Ad Image\" width=\"{width}\" height=\"{height}\"></a>";
 
     // Return the HTML response
     return Results.Redirect(imageUrl);
+});
+
+app.MapGet("/ad/clicked/{id}", (int id) =>
+{
+    // var productName = getProductNameFunction(id);
+    //var pageURL = "/api/" + productName;
+
+    //call function to add click to stat
+
+    // Return the Product Page response
+    //return Results.Redirect(pageURL);
 });
 
 app.MapPost("/api/parsejson", async (HttpContext context) =>
@@ -47,44 +68,79 @@ app.MapPost("/api/parsejson", async (HttpContext context) =>
     {
         var json = await reader.ReadToEndAsync();
 
-        // Parse the JSON to JsonDocument
-        //using (JsonDocument doc = JsonDocument.Parse(json))
-        //{
-        //    // Detect the root element type
-        //    JsonElement root = doc.RootElement;
+        //Parse the JSON to JsonDocument
+        using (JsonDocument doc = JsonDocument.Parse(json))
+        {
+            // Detect the root element type
+            JsonElement root = doc.RootElement;
 
-        //    // Dynamically determine the model based on the root element's properties
-        //    if (root.TryGetProperty("Id", out _))
-        //    {
-        //        // Deserialize to Product model
-        //        var product = JsonSerializer.Deserialize<Product>(json, new JsonSerializerOptions
-        //        {
-        //            PropertyNameCaseInsensitive = true
-        //        });
+            // Dynamically determine the model based on the root element's properties
+            if (root.TryGetProperty("Id", out _))
+            {
+                // Deserialize to Product model
+                var product = JsonSerializer.Deserialize<Product>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
 
-        //        // Process the product data as needed
+                // Process the product data as needed
 
-        //        return Results.Text($"Received product: {product.Name}");
-        //    }
-        //    else if (root.TryGetProperty("SomeOtherProperty", out _))
-        //    {
-        //        // Deserialize to another model
-        //        var otherModel = JsonSerializer.Deserialize<OtherModel>(json, new JsonSerializerOptions
-        //        {
-        //            PropertyNameCaseInsensitive = true
-        //        });
+                return Results.Text($"Received product: {product.Name}");
+            }
+            else if (root.TryGetProperty("SomeOtherProperty", out _))
+            {
+                // Deserialize to another model
+                var cart = JsonSerializer.Deserialize<Cart>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
 
-        //        // Process the other model data as needed
+                // Process the other model data as needed
 
-        //        return Results.Text($"Received data: {otherModel.SomeOtherProperty}");
-        //    }
-        //    // Add more model checks as needed
-        //    else
-        //    {
-        //        // Handle unrecognized JSON structure
-        //        return Results.BadRequest("Unrecognized JSON structure");
-        //    }
-        //}
+                return Results.Text($"Received data: {cart.Id}");
+            }
+            else if (root.TryGetProperty("SomeOtherProperty", out _))
+            {
+                // Deserialize to another model
+                var user = JsonSerializer.Deserialize<User>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+                // Process the other model data as needed
+
+                return Results.Text($"Received data: {user.Name}");
+            }
+            else if (root.TryGetProperty("SomeOtherProperty", out _))
+            {
+                // Deserialize to another model
+                var category = JsonSerializer.Deserialize<Category>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+                // Process the other model data as needed
+
+                return Results.Text($"Received data: {category.Name}");
+            }
+            else if (root.TryGetProperty("SomeOtherProperty", out _))
+            {
+                // Deserialize to another model
+                var cartProduct = JsonSerializer.Deserialize<Cart_Product>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+                // Process the other model data as needed
+
+                return Results.Text($"Received data: {cartProduct.cart_id}");
+            }
+            else
+            {
+                // Handle unrecognized JSON structure
+                return Results.BadRequest("Unrecognized JSON structure");
+            }
+        }
     }
 });
 
