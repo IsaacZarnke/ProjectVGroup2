@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 
 using Models;
 using System.Reflection.Metadata;
-using Database.Models;
 
 public class DataContext : DbContext
 {

@@ -16897,19 +16897,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ericw\\.nuget\\packages\\": {}
+    "C:\\Users\\IZarn\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj",
+      "projectUniqueName": "C:\\Users\\IZarn\\Source\\Repos\\ProjectVGroup2Sprint3\\AdModuleWeb\\AdModuleWeb.csproj",
       "projectName": "AdModuleWeb",
-      "projectPath": "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\AdModuleWeb\\AdModuleWeb.csproj",
-      "packagesPath": "C:\\Users\\ericw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ericw\\source\\repos\\ProjectVGroup2\\AdModuleWeb\\obj\\",
+      "projectPath": "C:\\Users\\IZarn\\Source\\Repos\\ProjectVGroup2Sprint3\\AdModuleWeb\\AdModuleWeb.csproj",
+      "packagesPath": "C:\\Users\\IZarn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IZarn\\Source\\Repos\\ProjectVGroup2Sprint3\\AdModuleWeb\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ericw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IZarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -16981,7 +16986,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },
