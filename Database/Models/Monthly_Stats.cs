@@ -12,15 +12,15 @@ namespace Models
     {
         [Key]
         [Required]
-        [Column("id")]
-        public int Id { get; set; } = default(int);
+        [Column("month")]
+        public DateTime Month { get; set; } = default(DateTime);
 
         [Required]
-        [Column("name")]
-        public string Name { get; set; } = null!;
+        [Column("clicks")]
+        public int Clicks { get; set; } = default(int);
 
         [Required]
-        [Column("stats")]
-        public int Stats { get; set; } = default(int);
+        [Column("conversions")]
+        public int Conversions { get; set; } = default(int);
     }
 }
