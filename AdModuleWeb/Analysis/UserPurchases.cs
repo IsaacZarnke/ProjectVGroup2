@@ -39,6 +39,7 @@ namespace AdModuleWeb.Analysis
   
         public void AddFrequency(List<string> products)
         {
+            
             int frequency = 1;
             foreach (var key in product_frequency.Keys)
             {
