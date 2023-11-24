@@ -75,7 +75,23 @@ public static class DatabaseLib
         }
     }
 
+    public static Category GetCategoryById(int id)
+    {
+        using var context = DataContext.Instance;
 
+        var category = context.Categories.FirstOrDefault(c => c.Id == id);
+
+        return category;
+    }
+
+    public static Category GetCategoryByName(string categoryName)
+    {
+        using var context = DataContext.Instance;
+
+        var category = context.Categories.FirstOrDefault(c => c.Name == categoryName);
+
+        return category;
+    }
 }
 
 
