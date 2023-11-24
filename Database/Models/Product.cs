@@ -7,20 +7,53 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Models
 {
-    [Table("category")]
+    [Table("product")]
     public class Product
     {
         [Key]
         [Required]
-        [Column("id")]
-        public int Id { get; set; } = default(int);
+        [Column("pid")]
+        public int Pid { get; set; } = default(int);
+
+        [Required]
+        [Column("sid")]
+        public string Sid { get; set; } = null!;
 
         [Required]
         [Column("name")]
         public string Name { get; set; } = null!;
 
         [Required]
-        [Column("stats")]
-        public string Stats { get; set; } = null!;
+        [Column("description")]
+        public string Description { get; set; } = null!;
+
+        [Required]
+        [Column("image")]
+        public string Image { get; set; } = null!;
+
+        [Required]
+        [Column("category")]
+        public int Category { get; set; } = default(int);
+
+        [Required]
+        [Column("price")]
+        public float Price { get; set; } = default(float);
+
+        [Required]
+        [Column("stock")]
+        public int Stock { get; set; } = default(int);
+
+        [Required]
+        [Column("sales")]
+        public int Sales { get; set; } = default(int);
+
+        [Required]
+        [Column("rating")]
+        public float Rating { get; set; } = default(float);
+
+        [Required]
+        [Column("clicked")]
+        public int Clicked { get; set; } = default(int);
+
     }
 }

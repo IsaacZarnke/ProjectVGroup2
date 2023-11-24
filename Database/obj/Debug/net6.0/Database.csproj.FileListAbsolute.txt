@@ -3,8 +3,16 @@ C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Dat
 C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
 C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
 C:\Users\munashemahere\Source\Repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
 C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+=======
+C:\Users\ericw\source\repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
+C:\Users\ericw\source\repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ericw\source\repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
+C:\Users\ericw\source\repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
+C:\Users\ericw\source\repos\ProjectVGroup2\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+>>>>>>> c91b8e3de4baf1af099f47a1b8ef048665077719

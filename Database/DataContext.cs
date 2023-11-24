@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 
 using Models;
 using System.Reflection.Metadata;
-using Database.Models;
 
 public class DataContext : DbContext
 {
@@ -20,10 +19,11 @@ public class DataContext : DbContext
     }
 
     public DataContext() { }
-    public DbSet<Cart> Carts { get; set; }
+    public DbSet<MonthlyStats> MonthlyStats { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<Product> Products { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<UserPurchases> UserPurchases { get; set; }
 
     // Creates the connection between the program and the database so that we can save the changes from our models and enact them on the database in real time
     // This logs into our database server we have running on AWS so as long as the program has the credentials it doesn't need a local copy of the database

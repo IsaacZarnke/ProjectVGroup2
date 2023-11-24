@@ -7,15 +7,20 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Models
 {
-    [Table("cart_product")]
-    public class Cart_Product
+    [Table("monthly_stats")]
+    public class MonthlyStats
     {
+        [Key]
         [Required]
-        [Column("email")]
-        public int cart_id { get; set; } = default(int);
+        [Column("month")]
+        public DateTime Month { get; set; } = default(DateTime);
 
         [Required]
-        [Column("password")]
-        public int product_id { get; set; } = default(int);
+        [Column("clicks")]
+        public int Clicks { get; set; } = default(int);
+
+        [Required]
+        [Column("conversions")]
+        public int Conversions { get; set; } = default(int);
     }
 }

@@ -9,9 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AdModuleWeb
 build_property.RootNamespace = AdModuleWeb
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\zebby\source\repos\IsaacZarnke\ProjectVGroup2\AdModuleWeb
+=======
+build_property.ProjectDir = C:\Users\IZarn\Source\Repos\ProjectVGroup2Sprint3\AdModuleWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\IZarn\Source\Repos\ProjectVGroup2Sprint3\AdModuleWeb
+>>>>>>> c91b8e3de4baf1af099f47a1b8ef048665077719
 build_property._RazorSourceGeneratorDebug = 
